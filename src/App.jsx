@@ -1,4 +1,6 @@
 import './App.css';
+import './Counter.jsx';
+import './Item.jsx';
 
 function App() {
   return (
