@@ -1,6 +1,5 @@
+import React from 'react';
 import './App.css';
-import './Counter.jsx';
-import './Item.jsx';
 
 function App() {
   return (
@@ -10,9 +9,9 @@ function App() {
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
         </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
+        <React.StrictMode>
+          <Hello />
+        </React.StrictMode>
         <p>
           <a
             className="App-link"

@@ -3,16 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './Counter.jsx';
-import Counter from './Counter.jsx';
-import './Item.jsx';
-import Item from './Item.jsx';
-
+import Hello from './Hello';
+import Counter from './Counter'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Counter />
-    <Item />
+    <Counter/>
+    <Counter/>
   </React.StrictMode>
 );
 
